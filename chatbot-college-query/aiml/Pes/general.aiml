@@ -1,0 +1,86 @@
+<aiml version = "1.0" >
+	<category>
+		<pattern>NAME OF COLLEGE</pattern>
+		<template>PES University</template>
+	</category>
+	<category>
+		<pattern> _ COLLEGE NAME</pattern>
+		<template><srai>NAME OF COLLEGE</srai></template>
+	</category>	
+	<category>
+		<pattern>WHERE IS IT  LOCATED</pattern>
+		<template><srai>LOCATION</srai></template>
+	</category>
+	<category>
+		<pattern>LOCATION</pattern>
+		<template>100 Feet Ring Road, Banashankari Stage III, Bangalore</template>
+	</category>
+	<category>
+		<pattern>HOW CAN I REACH * COLLEGE</pattern>
+		<template><srai>LOCATION</srai></template>
+	</category>
+	<category>
+		<pattern>HOW DO I REACH * COLLEGE</pattern>
+		<template><srai>LOCATION</srai></template>
+	</category>
+	<category>
+		<pattern>_ CONTACT THEM</pattern>
+		<template><srai>CONTACT</srai></template>
+	</category>
+	<category>
+		<pattern>WHAT IS THEIR * NUMBER</pattern>
+		<template><srai>CONTACT</srai></template>
+	</category>
+	<category>
+		<pattern>_ CONTACT NUMBER</pattern>
+		<template><srai>CONTACT</srai></template>
+	</category>
+	<category>
+		<pattern>CONTACT</pattern>
+		<template> 080 2672 1983</template>
+	</category>
+	<category>
+		<pattern>HOW BIG IS THE COLLEGE</pattern>
+		<template>VERY BIG ;)  <srai>BIG</srai></template>
+	</category>
+	<category>
+		<pattern>WHAT ARE THE PROGRAMS OFFERED _ </pattern>
+		<template><srai>PROGRAMS OFFERED</srai></template>
+	</category>
+		<category>
+		<pattern>WHAT ARE THE PROGRAMS OFFERED</pattern>
+		<template><srai>PROGRAMS OFFERED</srai></template>
+	</category>
+	<category>
+		<pattern> _ PROGRAMS OFFERED</pattern>
+		<template><srai>PROGRAMS OFFERED</srai></template>
+	</category>
+	<category>
+		<pattern> WHICH PROGRAMS _</pattern>
+		<template><srai>PROGRAMS OFFERED</srai></template>
+	</category>
+	<category>
+		<pattern>PROGRAMS OFFERED</pattern>
+		<template> Undergraduate, Postgraduate and Research programs</template>
+	</category>
+	<category>
+		<pattern>_ ENTRANCE EXAMS</pattern>
+		<template>CET and our in house PESSAT exam. Besides PESSAT and CET, the test scores of UCEED, PGCET, MAT, CMAT, CAT, GMAT, GRE and other few other National level exams are considered. </template>
+	</category>
+	<category>
+		<pattern>_ CLASSES START</pattern>
+		<template>All courses commence from the first Monday of August every year. </template>
+	</category>
+	<category>
+		<pattern>_ CLASS TIMINGS</pattern>
+		<template><srai>CLASS TIMINGS</srai></template>
+	</category>
+	<category>
+		<pattern>CLASS TIMINGS</pattern>
+		<template> All classes commence at 8:15 am.</template>
+	</category>
+	<category>
+		<pattern>_ TIMINGS OF CLASSES</pattern>
+		<template><srai>CLASS TIMINGS</srai></template>
+	</category>
+</aiml>
